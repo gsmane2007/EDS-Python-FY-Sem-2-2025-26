@@ -1,0 +1,33 @@
+list84=[76,77,78,80,81,82,84]
+list84.append(85)
+print(list84)
+[76, 77, 78, 80, 81, 82, 84, 85]
+list84.insert(3,79)
+print(list84)
+[76, 77, 78, 79, 80, 81, 82, 84, 85]
+list84.remove(85)
+list84.remove(79)
+print(list84)
+[76, 77, 78, 80, 81, 82, 84]
+list84.append(85)
+print(list84)
+[76, 77, 78, 80, 81, 82, 84, 85]
+list84.pop()
+85
+
+
+student={"name":"Girija","surname":"Mane","class":"IT1"}
+print(student)
+{'name': 'Girija', 'surname': 'Mane', 'class': 'IT1'}
+student["PRN"]=84
+student["address"]="Pune"
+print(student)
+{'name': 'Girija', 'surname': 'Mane', 'class': 'IT1', 'PRN': 84, 'address': 'Pune'}
+student["CGPA"]=8.57
+print(student)
+{'name': 'Girija', 'surname': 'Mane', 'class': 'IT1', 'PRN': 84, 'address': 'Pune', 'CGPA': 8.57}
+student.update({"PRN":202501080084})
+print(student)
+{'name': 'Girija', 'surname': 'Mane', 'class': 'IT1', 'PRN': 202501080084, 'address': 'Pune', 'CGPA': 8.57}
+student.pop("name")
+'Girija'
